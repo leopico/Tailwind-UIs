@@ -1,5 +1,5 @@
 
-import { AiOutlineDownload, AiFillShop } from 'react-icons/ai'
+import { AiOutlineDownload, AiOutlineShoppingCart } from 'react-icons/ai'
 
 const HeroSection = () => {
     return (
@@ -19,7 +19,7 @@ const HeroSection = () => {
                     </button>
                     <button className="flex items-center justify-center space-x-3 border-green-500 hover:bg-green-500 hover:text-white transition duration-150 px-10 py-3 text-green-500 
                     rounded-full outline outline-2 outline-green-300">
-                        <AiFillShop />
+                        <AiOutlineShoppingCart />
                         <span>Order Now</span>
                     </button>
                 </div>

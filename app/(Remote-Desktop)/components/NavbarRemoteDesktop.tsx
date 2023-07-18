@@ -24,7 +24,8 @@ const NavbarRemoteDesktop = () => {
                     )}>
                         <div onClick={() => setNav(!nav)}
                             className='absolute md:hidden top-24 right-3
-                                        border border-green-500 w-10 h-10 flex justify-center items-center
+                                        border border-green-500 w-10 h-10 
+                                        flex justify-center items-center
                                         rounded-full cursor-pointer'
                         >
                             <AiOutlineClose size={25} color='black' />
@@ -50,7 +51,7 @@ const NavbarRemoteDesktop = () => {
                             ></div>
                         </div>
                         <div onClick={() => setNav(!nav)}
-                            className='md:hidden cursor-pointer border border-slate-500
+                            className='md:hidden cursor-pointer border border-slate-600
                              text-white hover:bg-slate-400 rounded-full p-1' >
                             <AiOutlineMenu size={25} />
                         </div>

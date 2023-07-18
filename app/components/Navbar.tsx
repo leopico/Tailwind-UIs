@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div className="fixed w-full z-20 shadow-sm flex justify-between
-                        items-center px-5 py-3 bg-slate-200 ">
+                        items-center px-5 py-3 bg-[#52c0c9]">
             <div
                 className="relative w-20 h-10 cursor-pointer"
                 onClick={() => router.push("/")}
@@ -27,14 +27,14 @@ const Navbar = () => {
                     fill
                 />
             </div>
-            <div className={clsx(`fixed md:static h-screen md:h-auto bg-slate-200 z-10 top-0
+            <div className={clsx(`fixed md:static h-screen md:h-auto bg-[#52c0c9] z-10 top-0
                                 md:left-auto md:right-auto duration-500
                                 w-full flex justify-center items-center`,
                 nav ? 'left-0' : '-left-full'
             )}>
                 <div onClick={() => setNav(!nav)}
                     className='absolute md:hidden top-3 right-3
-                                        border border-green-500 w-10 h-10 flex justify-center items-center
+                                        border border-green-900 w-10 h-10 flex justify-center items-center
                                         rounded-full cursor-pointer'
                 >
                     <AiOutlineClose size={25} color='black' />
@@ -44,8 +44,8 @@ const Navbar = () => {
                         onClick={() => setNav(!nav)}
                         href={"/"}
                         className={clsx(
-                            "hover:text-rose-500 transition-all duration-200",
-                            pathname === "/" && "text-rose-500"
+                            "hover:text-white transition-all duration-200",
+                            pathname === "/" && "text-white"
                         )}
                     >
                         Home
@@ -54,8 +54,8 @@ const Navbar = () => {
                         onClick={() => setNav(!nav)}
                         href={"/remote-desktop"}
                         className={clsx(
-                            "hover:text-rose-500 transition-all duration-200",
-                            pathname === "/remote-desktop" && "text-rose-500"
+                            "hover:text-white transition-all duration-200",
+                            pathname === "/remote-desktop" && "text-white"
                         )}
                     >
                         Remote Desktop UI
@@ -64,8 +64,8 @@ const Navbar = () => {
                         onClick={() => setNav(!nav)}
                         href={"/landing-page"}
                         className={clsx(
-                            "hover:text-rose-500 transition-all duration-200",
-                            pathname === "/landing-page" && "text-rose-500"
+                            "hover:text-white transition-all duration-200",
+                            pathname === "/landing-page" && "text-white"
                         )}
                     >
                         Landing Page UI
@@ -74,8 +74,8 @@ const Navbar = () => {
                         onClick={() => setNav(!nav)}
                         href={"/blog-page"}
                         className={clsx(
-                            "hover:text-rose-500 transition-all duration-200",
-                            pathname === "/blog-page" && "text-rose-500"
+                            "hover:text-white transition-all duration-200",
+                            pathname === "/blog-page" && "text-white"
                         )}
                     >
                         Blog Page UI
@@ -84,8 +84,8 @@ const Navbar = () => {
                         onClick={() => setNav(!nav)}
                         href={"/ionic-page"}
                         className={clsx(
-                            "hover:text-rose-500 transition-all duration-200",
-                            pathname === "/ionic-page" && "text-rose-500"
+                            "hover:text-white transition-all duration-200",
+                            pathname === "/ionic-page" && "text-white"
                         )}
                     >
                         Ionic Page UI
