@@ -7,7 +7,7 @@ import clsx from 'clsx';
 const NavbarLadingPage = () => {
     const [nav, setNav] = useState(false);
     return (
-        <div className="bg-green-400">
+        <section className="bg-green-400 sticky top-16 z-10">
             <div className="container mx-auto sm:p-2">
                 <div className="flex justify-between items-center px-5 sm:px-0">
                     <div className="">
@@ -41,7 +41,7 @@ const NavbarLadingPage = () => {
                             <input type="checkbox" id="toggleB" className="sr-only" />
                             <div className="block bg-gray-400 w-12 h-6 rounded-full"></div>
                             <div
-                                className="dot absolute left-1 top-0.5 bg-white 
+                                className="absolute left-1 top-0.5 bg-white 
                                         w-5 h-5 rounded-full transition"
                             ></div>
                         </div>
@@ -54,7 +54,7 @@ const NavbarLadingPage = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
