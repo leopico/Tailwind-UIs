@@ -6,6 +6,7 @@ const nextConfig = {
       "th.bing.com",
       "www.bettertechtips.com",
       "plus.unsplash.com",
+      "ionic.io",
     ],
   },
 };
