@@ -7,6 +7,7 @@ const nextConfig = {
       "www.bettertechtips.com",
       "plus.unsplash.com",
       "ionic.io",
+      "images.pexels.com",
     ],
   },
 };

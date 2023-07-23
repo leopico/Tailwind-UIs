@@ -6,9 +6,15 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      primary: ["Open Sans", "sans-serif"],
+    },
     extend: {
       screens: {
         sm: "446px",
+      },
+      inset: {
+        26: "104px",
       },
     },
   },

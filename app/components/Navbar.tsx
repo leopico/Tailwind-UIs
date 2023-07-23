@@ -58,7 +58,7 @@ const Navbar = () => {
                             pathname === "/remote-desktop" && "text-white"
                         )}
                     >
-                        Remote Desktop UI
+                        Remote Desktop
                     </Link>
                     <Link
                         onClick={() => setNav(!nav)}
@@ -68,7 +68,7 @@ const Navbar = () => {
                             pathname === "/landing-page" && "text-white"
                         )}
                     >
-                        Landing Page UI
+                        Landing Page
                     </Link>
                     <Link
                         onClick={() => setNav(!nav)}
@@ -78,7 +78,7 @@ const Navbar = () => {
                             pathname === "/blog-page" && "text-white"
                         )}
                     >
-                        Blog Page UI
+                        Blog Page
                     </Link>
                     <Link
                         onClick={() => setNav(!nav)}
@@ -88,7 +88,27 @@ const Navbar = () => {
                             pathname === "/ionic-page" && "text-white"
                         )}
                     >
-                        Ionic Page UI
+                        Ionic Page
+                    </Link>
+                    <Link
+                        onClick={() => setNav(!nav)}
+                        href={"/timeline"}
+                        className={clsx(
+                            "hover:text-white transition-all duration-200",
+                            pathname === "/timeline" && "text-white"
+                        )}
+                    >
+                        Timeline
+                    </Link>
+                    <Link
+                        onClick={() => setNav(!nav)}
+                        href={"/countdown"}
+                        className={clsx(
+                            "hover:text-white transition-all duration-200",
+                            pathname === "/countdown" && "text-white"
+                        )}
+                    >
+                        Countdown
                     </Link>
                 </ul>
             </div>
